@@ -9,6 +9,6 @@
 ![Image alt](https://github.com/{gaukhar02}/{GaukharIbrayeva-profile-website.git}/raw/{main}/{C:/Users/Lenova/Desktop/gitProject}/1.jpg)
 ![Image alt](https://github.com/{gaukhar02}/{GaukharIbrayeva-profile-website.git}/raw/{main}/{C:/Users/Lenova/Desktop/gitProject}/2.jpg)
 ![Image alt](https://github.com/{gaukhar02}/{GaukharIbrayeva-profile-website.git}/raw/{main}/{C:/Users/Lenova/Desktop/gitProject}/3.jpg)
-![Image alt](https://github.com/{gaukhar02}/{GaukharIbrayeva-profile-website.git}/raw/{main}/4.jpg)
+![Image alt](https://github.com/gaukhar02/GaukharIbrayeva-profile-website/blob/main/1.jpg)
 ![Test Image 4](https://github.com/gaukhar02/GaukharIbrayeva-profile-website/1.jpg)
 
