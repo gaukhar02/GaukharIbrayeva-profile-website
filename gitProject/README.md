@@ -3,10 +3,10 @@
 
 
 
-### ___You can find information about me, photos in my portfolio website, you can contact me on social networks and via mail, you can even write a message directly on the website___
+# ___You can find information about me, photos in my portfolio website, you can contact me on social networks and via mail, you can even write a message directly on the website___
 
 
-# When you click on the word website, the Laravel main page window will open!!!
+##### When you click on the word website, the Laravel main page window will open!!!
 
 
 
