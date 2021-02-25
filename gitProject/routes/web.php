@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 
 use App\Models\Client;
+use App\Models\Post;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,6 +46,6 @@ Route::get('post/create', function () {
  });
 
 Route::get('post', function () {
-     $post = post::find(1);
+     $post = Post::find(1);
      return $post;
 });
