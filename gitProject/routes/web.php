@@ -9,6 +9,9 @@ use App\Models\Post;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\UploadFileController;
+
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\MailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -64,4 +67,11 @@ Route::get('post/create', function(){
 Route::post('post/create', [BlogController::class, 'store'])->name('add-post');
 Route::get('post/{id}', [BlogController::class, 'get_post']);
 
+Route::get('/profile', [ProfileController::class, 'index']);
+Route::post('/profile', [ProfileController::class, 'add'])->name('addprofile');
 
+Route::get('/profile/{profile_id}', [ProfileController::class, 'showProfile']);
+
+Route::get('/profiles', [ProfileController::class, 'showProfiles']);
+
+Route::get('mail/send', [MailController::class, 'send']);
