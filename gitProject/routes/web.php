@@ -26,9 +26,18 @@ use App\Http\Controllers\MailController;
 Route::get('/', function () {
     return view('welcome');
 })-> name('welcome');
-Route::get('/Laravel', function () {
+
+
+Route::get('/project', function () {
     return view('index');
 })-> name('Laravel');
+
+
+Route::get('/{lang}', function ($lang) {
+    App::setlocale($lang);
+    return view('index3');
+
+});
 
 
 Route::get('client/add', function () {

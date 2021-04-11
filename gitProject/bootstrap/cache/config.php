@@ -473,14 +473,14 @@
       'smtp' => 
       array (
         'transport' => 'smtp',
-        'host' => 'smtp.googlemail.com',
-        'port' => '1025',
-        'encryption' => 'tls',
+        'host' => 'smtp.gmail.com',
+        'port' => '465',
+        'encryption' => 'ssl',
         'username' => 'g019302i@gmail.com',
-        'password' => 'ibgaab1917',
+        'password' => 'oczplexehghlngtz',
         'timeout' => NULL,
         'auth_mode' => NULL,
-        'stream' => 
+        '           stream' => 
         array (
           'ssl' => 
           array (
